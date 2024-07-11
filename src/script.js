@@ -66,7 +66,8 @@ class Stack {
 }
 
 const stack = new Stack(5);
-之所以要你在stack那个class里面定义那些function
+// 之所以要你在stack那个class里面定义那些function
+// 这里你用的时候就写stack.pop(）
 function push() {
   const inputValue = document.getElementById('inputValue').value;
   if (inputValue === '') {
