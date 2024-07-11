@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stack Operations</title>
+    <style>
+      .container {
+          max-width: 300px;
+          margin: auto;
+          padding: 20px;
+          border: 1px solid #ccc;
+          text-align: center;
+      }
+      input, button {
+          margin: 10px 0;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <input type="text" id="inputValue" placeholder="Enter value" />
+      <button onclick="push()">Push</button>
+      <button onclick="pop()">Pop</button>
+      <button onclick="empty()">Empty</button>
+      <button onclick="peek()">Peek</button>
+      <button onclick="swap()">Swap</button>
+      <div id="stack"></div>
+    </div>
+    <script src="./src/script.js"></script>
+  </body>
+</html>
